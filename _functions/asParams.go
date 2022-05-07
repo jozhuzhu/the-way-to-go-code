@@ -1,4 +1,4 @@
-package functions
+package _functions
 
 import (
 	"strings"
@@ -8,7 +8,7 @@ import (
 /*func main() {
 	in := "hello, world!, I wanna convert 世界 to ' '."
 
-	out := functions.NonasciiToQuestionMark(in)
+	out := _functions.NonasciiToQuestionMark(in)
 
 	fmt.Println(out)
 

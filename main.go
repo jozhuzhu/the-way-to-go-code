@@ -1,7 +1,7 @@
 package main
 
-import defer_trace "defer-trace"
+import "the-way-to-go-code/_map"
 
 func main() {
-	defer_trace.B()
+	_map.PrintDrink_1()
 }

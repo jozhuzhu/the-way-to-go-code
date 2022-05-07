@@ -1,4 +1,4 @@
-package functions
+package _functions
 
 import "fmt"
 
@@ -31,7 +31,7 @@ func NewFabonacci_2(n int) (value int) {
 }
 
 /*func main() {
-	f := functions.NewFabonacci_3() //返回一个闭包函数
+	f := _functions.NewFabonacci_3() //返回一个闭包函数
 	var array [40]int
 	for i := 0; i < 40; i++ {
 		array[i] = f()
