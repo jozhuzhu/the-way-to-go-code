@@ -1,0 +1,15 @@
+package _struct
+
+import "fmt"
+
+type Celsius float64
+
+func (c *Celsius) String() string {
+	return fmt.Sprintf("%2.5f℃", *c)
+}
+
+func PrintCelsius() {
+	var c Celsius = 36.6
+
+	fmt.Println(c)
+}
