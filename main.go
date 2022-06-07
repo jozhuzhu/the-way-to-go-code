@@ -1,11 +1,9 @@
 package main
 
 import (
-	"the-way-to-go-code/_struct"
+	"the-way-to-go-code/_interface"
 )
 
 func main() {
-	for i := 0; i < 10; i++ {
-		_struct.WhichDay(_struct.Day(i))
-	}
+	_interface.TestStack()
 }
