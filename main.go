@@ -1,9 +1,9 @@
 package main
 
 import (
-	"the-way-to-go-code/_interface"
+	"the-way-to-go-code/_goruntine"
 )
 
 func main() {
-	_interface.TestStack()
+	_goruntine.TestLazyEvaluator()
 }
